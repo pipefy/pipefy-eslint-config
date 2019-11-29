@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "react-app",
+    "plugin:jest/recommended",
+    "eslint-config-recommended",
+    "plugin:flowtype/recommended"
+  ],
+  "plugins": ["flowtype", "jest", "react", "import", "prettier"],
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "jquery": true
+  },
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": true
+    }
+  },
+  "rules": {
+    "react/no-unsafe": [2, { "checkAliases": true }]
+  }
+}
