@@ -3,7 +3,7 @@
     "react-app",
     "plugin:jest/recommended",
     "eslint-config-recommended",
-    "@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended"
   ],
   "plugins": [
     "jest",

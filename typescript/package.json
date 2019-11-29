@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/pipefy/pipefy-eslint-config#readme",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.9.0",
     "@typescript-eslint/parser": "^2.9.0",
     "eslint-config-react-app": "^5.0.2",
     "eslint-config-recommended": "^4.0.0",
