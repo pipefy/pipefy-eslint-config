@@ -1,0 +1,42 @@
+{
+  "name": "pipefy-eslint-config",
+  "private": true,
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.4.0",
+    "@typescript-eslint/parser": "^4.4.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-airbnb-typescript": "^11.0.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.21.3",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "lerna": "^3.22.1",
+    "prettier": "^2.1.2"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.21.3",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "prettier": "^2.1.2"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:pipefy/pipefy-eslint-config.git",
+  "author": "Pipefy-team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pipefy/pipefy-eslint-config/issues"
+  },
+  "homepage": "https://github.com/pipefy/pipefy-eslint-config#readme"
+}

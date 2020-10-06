@@ -1,0 +1,17 @@
+{
+  "name": "@pipefyteam/eslint-config-pipefy-typescript",
+  "version": "1.0.0",
+  "description": "TypeScript eslint rules",
+  "main": "index.js",
+  "author": "Pipefy-team",
+  "license": "ISC",
+  "private": false,
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.4.0",
+    "@typescript-eslint/parser": "^4.4.0",
+    "eslint-config-airbnb-typescript": "^11.0.0"
+  }
+}
