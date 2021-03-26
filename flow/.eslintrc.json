@@ -1,23 +1,33 @@
 {
+  "parser": "babel-eslint",
   "extends": [
-    "react-app",
-    "eslint:recommended",
-    "plugin:jest/recommended",
-    "plugin:flowtype/recommended"
+    "plugin:flowtype/recommended",
+    "plugin:testing-library/react"
   ],
   "plugins": ["flowtype", "jest", "react", "import", "prettier"],
-  "parser": "babel-eslint",
   "env": {
     "browser": true,
     "node": true,
-    "jquery": true
+    "jquery": true,
+    "jest": true,
+    "jest/globals": true
+  },
+  "rules": {
+    "flowtype/no-types-missing-file-annotation": "off",
+    "flowtype/generic-spacing": "off",
+    "react/no-unsafe": [2, { "checkAliases": true }]
   },
   "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
+    },
+    "react": {
+      "version": "detect"
+    },
     "flowtype": {
       "onlyFilesWithFlowAnnotation": true
     }
-  },
-  "rules": {
-    "react/no-unsafe": [2, { "checkAliases": true }]
   }
 }
