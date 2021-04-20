@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pipefy-flow",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Flow-js eslint rules",
   "main": "index.js",
   "scripts": {
@@ -10,10 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/pipefy/pipefy-eslint-config.git"
   },
-  "keywords": [
-    "eslint",
-    "flow"
-  ],
+  "keywords": ["eslint", "flow"],
   "author": "Pipefy-team",
   "license": "ISC",
   "bugs": {
