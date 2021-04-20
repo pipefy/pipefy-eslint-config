@@ -3,14 +3,16 @@
     "react-app",
     "eslint:recommended",
     "plugin:jest/recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:jsx-a11y/recommended"
   ],
   "plugins": [
     "jest",
     "react",
     "import",
     "prettier",
-    "@typescript-eslint/eslint-plugin"
+    "@typescript-eslint/eslint-plugin",
+    "jsx-a11y"
   ],
   "parser": "@typescript-eslint/parser",
   "env": {
@@ -19,6 +21,8 @@
     "jquery": true
   },
   "rules": {
-    "react/no-unsafe": [2, { "checkAliases": true }]
+    "react/no-unsafe": [2, { "checkAliases": true }],
+    "jsx-a11y/no-autofocus": "off",
+    "jsx-a11y/label-has-associated-control": "off"
   }
 }
