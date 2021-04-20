@@ -2,9 +2,10 @@
   "parser": "babel-eslint",
   "extends": [
     "plugin:flowtype/recommended",
-    "plugin:testing-library/react"
+    "plugin:testing-library/react",
+    "plugin:jsx-a11y/recommended"
   ],
-  "plugins": ["flowtype", "jest", "react", "import", "prettier"],
+  "plugins": ["flowtype", "jest", "react", "import", "prettier", "jsx-a11y"],
   "env": {
     "browser": true,
     "node": true,
@@ -15,7 +16,9 @@
   "rules": {
     "flowtype/no-types-missing-file-annotation": "off",
     "flowtype/generic-spacing": "off",
-    "react/no-unsafe": [2, { "checkAliases": true }]
+    "react/no-unsafe": [2, { "checkAliases": true }],
+    "jsx-a11y/no-autofocus": "off",
+    "jsx-a11y/label-has-associated-control": "off"
   },
   "settings": {
     "import/resolver": {
