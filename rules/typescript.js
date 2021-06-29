@@ -8,11 +8,7 @@ module.exports = {
         project: "./tsconfig.json",
       },
       plugins: ["@typescript-eslint/eslint-plugin"],
-      extends: [
-        "plugin:@typescript-eslint/recommended",
-        "eslint:recommended",
-        "plugin:jest/recommended",
-      ],
+      extends: ["plugin:@typescript-eslint/recommended"],
       rules: {
         // Bans @ts-<directive> comments from being used or requires descriptions after directive
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/ban-ts-comment.md
@@ -20,7 +16,7 @@ module.exports = {
         // Disallow the use of variables before they are defined
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-use-before-define.md
         "@typescript-eslint/no-use-before-define": "off",
-        // This rule has been deprecated in favour of the naming-convention rule.
+        // [DEPRECATED] This rule has been deprecated in favour of the naming-convention rule.
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/camelcase.md
         "@typescript-eslint/camelcase": "off",
         // Disallows non-null assertions using the ! postfix operator
